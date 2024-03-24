@@ -1,0 +1,44 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+.livro-container {
+  display: flex;
+  align-items: flex-start; 
+  padding: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  max-width: 1050px; 
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.capa img {
+  display: flex; 
+  max-width: 100%; 
+  height: auto; 
+  margin-right: 20px;
+}
+
+.titulo {
+  flex: 1;
+}
+
+.descricao {
+  text-align: justify;
+}
+
+.infos span {
+  display: inline-flex;
+  margin-bottom: 5px;
+  
+}
+
+.estrelas{
+  height:  20px
+}
+
